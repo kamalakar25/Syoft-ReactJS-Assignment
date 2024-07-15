@@ -1,0 +1,151 @@
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 50px;
+}
+
+.signup-content {
+    display: flex;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 1000px;
+    width: 100%;
+    height: inherit;
+}
+
+.welcome-section {
+    background: #1d3557;
+    background-image: url("https://img.freepik.com/free-vector/gradient-connection-background_52683-116652.jpg?w=996&t=st=1721032543~exp=1721033143~hmac=2e0d6f3cf10f5e69bee5ef430a77c5c6b824ec507db3e9996b80c95302da6696");   
+    color: white;
+    padding: 40px;
+    max-width: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.welcome-section h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.welcome-section p {
+    margin: 10px 0;
+}
+
+.form-section {
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    flex: 1;
+    overflow: auto;
+}
+
+.form-section h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.form-section p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="tel"]:focus {
+    border-color: #f8f9fa;
+    outline: invert;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.terms label {
+    font-size: 14px;
+};
+.image {
+    height: 50px;
+}
+.avatars {
+    display: flex;
+    align-items: center;
+}
+
+.avatars img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: -10px;
+    border: 1px solid;
+}
+.avatars p {
+    font-size: 13px;
+    margin-left: 10px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    
+    transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: 200px;
+}
+.button:hover {
+    /* box-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 30px #0000ff, 0 0 40px #0000ff; */
+    background-color: #0000ff;
+    color: white;
+};
+
+
+  
